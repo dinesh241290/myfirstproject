@@ -1,0 +1,22 @@
+﻿@model MVCApplication.Models.Employee
+
+@{
+    ViewBag.Title = "EmployeList";
+}
+
+<h2>EmployeList</h2>
+<table style="font-variant-east-asian:traditional">
+    <tr>
+        <td>Employee_ID</td>
+        <td>@Model.employeeID</td>
+    </tr>
+    <tr>
+        <td>Employee_Name</td>
+        <td>@Model.employeeName</td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td>@Model.Address</td>
+    </tr>
+</table>
+
